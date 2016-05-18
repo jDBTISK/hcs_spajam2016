@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         //鴨田OK
         //おしっこしたい4
         //ああああえええええ
-            //ee
+            //eea
     }
 }
