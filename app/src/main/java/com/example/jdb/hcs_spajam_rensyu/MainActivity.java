@@ -15,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         //おしっこしたい4
         //ああああえええええ
             //eea
+        //Merge と Branch Default どっちがええんや！？！？！
+        //わからんねん
     }
 }
