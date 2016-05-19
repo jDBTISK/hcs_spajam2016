@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">HCS_SPAJAM_Rensyu</string>
+    <string name="buttonJapan">Japan</string>
+    <string name="buttonUSA">USA</string>
+    <string name="buttonFrance">France</string>
+    <string name="buttonChina">China</string>
+    <string name="buttonSpain">Spain</string>
+    <string name="buttonItaly">Italy</string>
+    <string name="buttonTurkey">Turkey</string>
+    <string name="buttonGermany">Germany</string>
+    <string name="buttonRussia">Russia</string>
+    <string name="buttonMexico">Mexico</string>
+    <string name="buttonHongKong">HongKong</string>
+    <string name="buttonMalaysia">Malaysia</string>
 </resources>
