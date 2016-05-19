@@ -10,11 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //むらもとおｋ？
-        //鴨田OK
-        //おしっこしたい4
-        //ああああえええええ
-            //eea
-        //たすけて
+
     }
 }
