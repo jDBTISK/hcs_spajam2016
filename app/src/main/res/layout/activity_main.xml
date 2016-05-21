@@ -30,7 +30,6 @@
                 android:src="@drawable/japan2"
                 android:scaleType="fitXY"
                 android:background="#fdfdfd"
-                android:onClick="onClick"
                 android:padding="0dp" />
 
             <ImageButton
@@ -38,7 +37,6 @@
                 android:layout_height="60dp"
                 android:id="@+id/francebutton"
                 android:layout_gravity="center_horizontal"
-                android:onClick="onClick"
                 android:src="@drawable/france"
                 android:scaleType="fitXY"
                 android:padding="0dp" />
