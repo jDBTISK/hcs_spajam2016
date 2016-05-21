@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ImageButton[] arrayImgBtn=new ImageButton[12];
         arrayImgBtn[0]=(ImageButton)findViewById(R.id.japanImg);
+        arrayImgBtn[1]=(ImageButton)findViewById(R.id.francebutton);
         //arrayImgBtn[1]=(ImageButton)findViewById(R.id.usaImg);
         //arrayImgBtn[2]=(ImageButton)findViewById(R.id.franceImg);
         //arrayImgBtn[3]=(ImageButton)findViewById(R.id.chinaImg);
