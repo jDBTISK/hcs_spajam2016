@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //arrayImgBtn[11]=(ImageButton)findViewById(R.id.malaysiaImg);
         for(int i=0; i<arrayImgBtn.length; i++){
             arrayImgBtn[i].setOnClickListener(this);
+            if(i==0)break;
         }
     }
 
