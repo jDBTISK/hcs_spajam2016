@@ -18,7 +18,7 @@ public class France_cuisine_searchActivity extends AppCompatActivity implements 
         setContentView(R.layout.activity_france_cuisine_search);
 
         ImageButton[] arrayImgBtn=new ImageButton[1];
-        arrayImgBtn[0]=(ImageButton)findViewById(R.id.buttonSoba);
+        arrayImgBtn[0]=(ImageButton)findViewById(R.id.buttonTerriene);
         //画像が増えたら配列に追加してく
         for(int i=0; i<arrayImgBtn.length; i++){
             arrayImgBtn[i].setOnClickListener(this);
