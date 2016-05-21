@@ -46,9 +46,10 @@
                 android:layout_height="60dp"
                 android:id="@+id/chinaimg"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/shanhaigani"
+                android:src="@drawable/china"
                 android:scaleType="fitXY"
-                android:padding="0dp" />
+                android:padding="0dp"
+                android:onClick="onClick" />
 
             <Button
                 android:layout_width="match_parent"
