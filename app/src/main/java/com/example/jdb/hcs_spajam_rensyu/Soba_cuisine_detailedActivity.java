@@ -3,12 +3,12 @@ package com.example.jdb.hcs_spajam_rensyu;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Japan_cuisine_detailedActivity extends AppCompatActivity {
+public class Soba_cuisine_detailedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_japan_cuisine_detailed);
+        setContentView(R.layout.activity_soba_cuisine_detailed);
         //fds
     }
 }
