@@ -28,14 +28,10 @@
                 android:id="@+id/japanImg"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/japan1"
-                android:scaleType="fitXY" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/buttonJapan"
-                android:id="@+id/buttonJapan"
-                android:layout_gravity="center_horizontal" />
+                android:scaleType="fitXY"
+                android:background="#fdfdfd"
+                android:onClick="onClick"
+                android:padding="0dp" />
 
             <Button
                 android:layout_width="match_parent"
