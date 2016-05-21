@@ -17,7 +17,6 @@
         </activity>
         <activity android:name=".Japan_cuisine_searchActivity" />
         <activity android:name=".Japan_cuisine_detailedActivity" />
-        <activity android:name=".Sushi_cuisine_detailedActivity"></activity>
     </application>
 
 </manifest>
