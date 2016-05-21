@@ -97,20 +97,6 @@
                 android:id="@+id/buttonMexico"
                 android:layout_gravity="center_horizontal" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/buttonHongKong"
-                android:id="@+id/buttonHongKong"
-                android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/buttonMalaysia"
-                android:id="@+id/buttonMalaysia"
-                android:layout_gravity="center_horizontal" />
-
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
