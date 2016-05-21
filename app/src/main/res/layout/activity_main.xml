@@ -25,7 +25,7 @@
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:id="@+id/imageButton"
+                android:id="@+id/japanImg"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/japan"
                 android:scaleType="fitXY" />
