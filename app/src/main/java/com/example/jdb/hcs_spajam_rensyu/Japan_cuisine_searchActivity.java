@@ -30,7 +30,7 @@ public class Japan_cuisine_searchActivity extends AppCompatActivity implements V
         Intent intent;
         switch (v.getId()){
             case R.id.buttonSoba:
-                intent=new Intent(this,Japan_cuisine_searchActivity.class);
+                intent=new Intent(this,Soba_cuisine_detailedActivity.class);
                 startActivity(intent);
                 break;
             //TODO クリックされたボタンに応じたアクティビティへ遷移
