@@ -17,7 +17,9 @@
         </activity>
         <activity android:name=".Japan_cuisine_searchActivity" />
         <activity android:name=".Soba_cuisine_detailedActivity" />
-        <activity android:name=".USA_cuisine_searchActivity"></activity>
+        <activity android:name=".USA_cuisine_searchActivity" />
+        <activity android:name=".France_cuisine_searchActivity" />
+        <activity android:name=".Terriene_cuisine_detailedActivity"></activity>
     </application>
 
 </manifest>
