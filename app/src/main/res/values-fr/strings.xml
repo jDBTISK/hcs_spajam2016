@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HCS_SPAJAM_Rensyu</string>
+    <string name="Allergy">allergie</string>
+    <string name="eat_method">Way de manger</string>
+    <string name="review">Examen</string>
+</resources>
