@@ -27,7 +27,7 @@
                 android:layout_height="60dp"
                 android:id="@+id/imageButton"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/日本"
+                android:src="@drawable/japan"
                 android:scaleType="fitXY" />
 
             <Button
@@ -46,10 +46,11 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dp"
                 android:text="@string/buttonFrance"
                 android:id="@+id/buttonFrance"
-                android:layout_gravity="center_horizontal" />
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1" />
 
             <Button
                 android:layout_width="match_parent"
