@@ -44,6 +44,11 @@
                     android:layout_height="wrap_content">
 
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imgsoba"
+                        android:src="@drawable/soba" />
                 </LinearLayout>
 
                 <HorizontalScrollView
@@ -57,17 +62,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text="@string/eat_method"
                     android:id="@+id/eat_method" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/eat1"
+                        android:id="@+id/eat1"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center" />
+
+                    <ImageView
+                        android:layout_width="139dp"
+                        android:layout_height="147dp"
+                        android:id="@+id/susuru"
+                        android:src="@drawable/susuru" />
+                </LinearLayout>
 
             </LinearLayout>
 
