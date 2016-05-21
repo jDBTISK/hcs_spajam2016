@@ -27,7 +27,6 @@
                 android:layout_height="60dp"
                 android:id="@+id/imageButton"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/japan"
                 android:scaleType="fitXY" />
 
             <Button
