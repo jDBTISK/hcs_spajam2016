@@ -27,7 +27,7 @@
                 android:layout_height="60dp"
                 android:id="@+id/japanImg"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/japan1"
+                android:src="@drawable/japan2"
                 android:scaleType="fitXY"
                 android:background="#fdfdfd"
                 android:onClick="onClick"
@@ -39,14 +39,6 @@
                 android:text="@string/buttonUSA"
                 android:id="@+id/buttonUSA"
                 android:layout_gravity="center_horizontal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:text="@string/buttonFrance"
-                android:id="@+id/buttonFrance"
-                android:layout_gravity="center_horizontal"
-                android:layout_weight="1" />
 
             <Button
                 android:layout_width="match_parent"
