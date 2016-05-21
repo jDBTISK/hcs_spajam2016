@@ -7,15 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jdb.hcs_spajam_rensyu.Cuisine_searchActivity">
-
+    tools:context=".Japan_cuisine_searchActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        >
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -57,11 +62,13 @@
             <ImageButton
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:id="@+id/imageButton2"
+                android:id="@+id/buttonNudle"
                 android:layout_weight="5"
                 android:src="@drawable/nudle"
                 android:scaleType="fitXY" />
 
         </LinearLayout>
     </LinearLayout>
+</ScrollView>
+
 </RelativeLayout>
