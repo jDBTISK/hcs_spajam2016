@@ -40,6 +40,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent=new Intent(this,Japan_cuisine_searchActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.francebutton:
+                intent=new Intent(this,France_cuisine_searchActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.buttonChina:
+                intent=new Intent(this,China_cuisine_searchActivity.class);
+                startActivity(intent);
+                break;
             //case R.id.usaImg:
             //TODO クリックされたボタンに応じたアクティビティへ遷移
             default:
