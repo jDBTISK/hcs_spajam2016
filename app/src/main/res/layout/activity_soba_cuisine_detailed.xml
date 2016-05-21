@@ -84,17 +84,13 @@
                 </LinearLayout>
 
                 <TextView
-                    android:layout_width="571dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:text="@string/sobasetumei"
                     android:id="@+id/sobaText"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginLeft="83dp"
-                    android:layout_marginStart="83dp"
-                    android:layout_marginBottom="182dp" />
+
+                     />
 
             </LinearLayout>
 
