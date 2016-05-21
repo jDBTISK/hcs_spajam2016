@@ -10,6 +10,6 @@ public class Japan_cuisine_searchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuisine_search);
 
-        //age
+        //ageaaa
     }
 }
