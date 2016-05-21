@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         ImageButton[] arrayImgBtn=new ImageButton[12];
         arrayImgBtn[0]=(ImageButton)findViewById(R.id.japanImg);
+        arrayImgBtn[1]=(ImageButton)findViewById(R.id.francebutton);
+        arrayImgBtn[2]=(ImageButton)findViewById(R.id.chinaimg);
         //arrayImgBtn[1]=(ImageButton)findViewById(R.id.usaImg);
         //arrayImgBtn[2]=(ImageButton)findViewById(R.id.franceImg);
         //arrayImgBtn[3]=(ImageButton)findViewById(R.id.chinaImg);
@@ -28,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //arrayImgBtn[11]=(ImageButton)findViewById(R.id.malaysiaImg);
         for(int i=0; i<arrayImgBtn.length; i++){
             arrayImgBtn[i].setOnClickListener(this);
-            if(i==0)break;
+            if(i==2)break;
         }
     }
 
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent=new Intent(this,France_cuisine_searchActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.buttonChina:
+            case R.id.chinaimg:
                 intent=new Intent(this,China_cuisine_searchActivity.class);
                 startActivity(intent);
                 break;
