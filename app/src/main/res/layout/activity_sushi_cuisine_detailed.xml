@@ -41,17 +41,39 @@
                     android:layout_height="wrap_content">
 
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/imgsoba"
-                        android:src="@drawable/soba" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imgsoba"
+                            android:src="@drawable/kani" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ebi" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/imageView2"
+                            android:src="@drawable/egg" />
+
+                    </LinearLayout>
                 </LinearLayout>
 
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/horizontalScrollView" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -75,7 +97,7 @@
                         android:layout_width="139dp"
                         android:layout_height="147dp"
                         android:id="@+id/susuru"
-                        android:src="@drawable/susuru"
+                        android:src="@drawable/susi"
                         android:layout_weight="8" />
 
                 </LinearLayout>
