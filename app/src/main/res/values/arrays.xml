@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="country">
+        <item>@array/japan_cuisine_name</item>
+    </array>
+    
+    <array name="japan_cuisine_name">
+        <item>@array/soba</item>
+    </array>
+
+    <array name="soba">
+        <item>@drawable/susuru</item>
+        <item>@string/sobasetumei</item>
+    </array>
+
+</resources>
