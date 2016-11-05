@@ -25,12 +25,15 @@
 C#  intel RealSense SDK
 
 * フロントエンド
+
 Bootstrap
 
 * サーバーサイド
+
 ruby on rails  postgreSQL  heroku  
 
 * 通信技術
+
 websocket
 
 #### デバイス
