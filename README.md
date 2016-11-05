@@ -31,7 +31,7 @@
 
 * サーバーサイド
 
-　　　　　　ruby on rails  postgreSQL  heroku  
+         ruby on rails  postgreSQL  heroku  
 
 * 通信技術
 
